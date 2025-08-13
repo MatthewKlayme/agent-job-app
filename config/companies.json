@@ -1,10 +1,6 @@
 [
     {
-        "name": "SampleCo",
-        "greenhouseBoard": "sampleco"
-    },
-    {
-        "name": "RocketSoft",
-        "leverBoard": "rocketsoft"
+        "name": "Datadog",
+        "greenhouseBoard": "datadoghq"
     }
 ]
