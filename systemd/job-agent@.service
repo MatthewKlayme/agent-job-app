@@ -1,0 +1,15 @@
+[Unit]
+Description=Job Agent %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/job-apply-agent
+EnvironmentFile=/home/pi/job-apply-agent/.env
+ExecStart=/usr/bin/node services/%i/run.js
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target

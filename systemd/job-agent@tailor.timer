@@ -1,0 +1,7 @@
+[Unit]
+Description=Run tailor hourly (offset 10m)
+[Timer]
+OnCalendar=*:10
+Persistent=true
+[Install]
+WantedBy=timers.target

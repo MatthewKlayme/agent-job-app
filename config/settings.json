@@ -1,0 +1,51 @@
+{
+    "location": {
+        "priority": [
+            "Houston, TX"
+        ],
+        "allow": [
+            "Houston, TX",
+            "Texas",
+            "United States",
+            "Remote"
+        ],
+        "hybrid_or_onsite_only": true
+    },
+    "salary": {
+        "min": 90000,
+        "max": 120000
+    },
+    "keywords_must": [
+        "React",
+        "Node",
+        "MongoDB",
+        "AWS",
+        "Lambda",
+        "SQS",
+        "SES",
+        "S3",
+        "Azure",
+        "Graph API",
+        "React Native",
+        "Hono",
+        "Bun"
+    ],
+    "keywords_nice": [
+        "TypeScript",
+        "Prisma",
+        "Cognito",
+        "Serverless",
+        "Express",
+        "Implementation",
+        "Integration",
+        "Solutions Engineer",
+        "Automation",
+        "Onboarding"
+    ],
+    "exclude": [
+        "Staff",
+        "Principal",
+        "Sr. Manager",
+        "Security Engineer (Network)"
+    ]
+}

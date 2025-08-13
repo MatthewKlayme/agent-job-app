@@ -1,0 +1,11 @@
+{
+    "name": "agent-dashboard",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "bun run src/index.ts"
+    },
+    "dependencies": {
+        "hono": "^4.6.0"
+    }
+}
